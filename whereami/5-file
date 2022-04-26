@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+FNAME="\*\\\'\"DevOps\"\'\\\*$\?\*\*\*\*\*:)"
+echo Hello DevOps >$FNAME

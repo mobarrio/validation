@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# verifica si existe el directorio y de no existir lo crea
+[ ! -d /tmp/u ] && mkdir /tmp/u
+
+# Mueve todos los ficheros con mayusculas a /tmp/u
+mv module1_task0/[[:upper:]]* /tmp/u
