@@ -1,1 +1,3 @@
-/root/devops/project/whereami
+#!/bin/bash 
+
+pwd
